@@ -1,0 +1,64 @@
+body{
+    background-color: #d5e1ef;
+    width: 400px;
+    height: 500px;
+}
+
+
+#header{
+    font-family:  'Cairo', sans-serif;
+    text-align: center;
+}
+
+#result{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+}
+
+.job-url{
+    border: 2px solid #e9b43d;
+    border-radius: 2%;
+    color: #7c3105;
+    padding: 10px;
+    font-size: 18px;
+    text-align: right;
+    margin: 10px 0;
+    text-decoration: none;
+    background: #e9e388;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+#loading_indicator {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 10px solid #8190b3;
+    border-radius: 50%;
+    border-top: 10px solid #e9e388;
+    width: 100px;
+    height: 100px;
+    animation: spinIndicator 1s linear infinite;
+ }
+ @keyframes spinIndicator {
+    100% {
+       transform: rotate(360deg);
+    }
+ }
+
+ #info{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 16px;
+ }
+
+ #info a{
+    color: #7c3105;
+    text-decoration:none;
+    font-weight: bold;
+ }

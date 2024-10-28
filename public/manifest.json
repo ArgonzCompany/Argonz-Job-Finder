@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Argonz-Job-Finder",
+  "version": "1.0",
+  "description": "The extension  gets latest iran job opportunities from e-estekhdam for presenting to user.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions":[
+    "https://www.e-estekhdam.com/*"
+  ],
+  
+  "icons":{
+    
+    "16": "images/argonz-jobfinder-icon.png",
+    "48": "images/argonz-jobfinder-icon.png",
+    "128": "images/argonz-jobfinder-icon.png"
+  }
+}
